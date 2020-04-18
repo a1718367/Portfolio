@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+a, i{
+    font-size: 36px;
+    color: black;
+    margin-left: 0.25em;
+    
+}
+header{
+    position: fixed;
+    left: 0;
+    height: 50rem;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    
+}
+
+
+
+#h1{
+    opacity: 0;
+    animation: spinner 2s, fadein 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    
+}
+#h2{
+    opacity: 0;
+    animation: spinner 2s, fadein 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+#h3{
+    opacity: 0;
+    animation: spinner 2s, fadein 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+img{
+    width: 30%;
+    
+}
+.col-md-6 h4{
+    padding-left: 1rem;
+}
+
+
+
+
+/* media cuery */
+@media screen and (max-width:568px){
+    h4{
+        font-size: 18px;
+    };
+    
+}
+
+/*animation*/
+@keyframes fadein{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes spinner{
+    from {
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
