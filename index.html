@@ -21,180 +21,176 @@
 </head>
 <body class="jumbotron-fluid">
     <!--<img class="profile img-fluid" id="name" src="img/name.png" alt="profile">-->
-    <!-- <nav class="navbar sticky-top">
-        <div class="navbar-brand">Logo</div>
-        <div>
-            <a href="https://github.com/a1718367" target="_blank"><i class='fab fa-github'></i></a>
-            <a href="https://au.linkedin.com/in/pangszee-ong-5926b05a" target="_blank"><i class='fab fa-linkedin'></i></a>
+    <nav class="navbar sticky-top">
+        <div class="navbar-brand">
+        
+        </div>
+        <div class="nav">
+            <a class="nav-item nav-link" href="#portfolio">Portfolio<span class="sr-only"></span></a>
+            <a class="nav-item nav-link" href="https://github.com/a1718367" target="_blank"><i class='fab fa-github'></i></a>
+            <a class="nav-item nav-link" href="https://au.linkedin.com/in/pangszee-ong-5926b05a" target="_blank"><i class='fab fa-linkedin'></i></a>
 
         </div>
 
-    </nav> -->
+    </nav>
 
     <header class="container-fluid">
         <div class="row side">
-            <div class="col-md-4 py-4" id="h1">
+            <div class="py-4" id="h1">
                 <h4>.COMMUNICATE</h4>
             </div>
-            <div class="col-md-4 py-4" id="h2">
+            <div class="py-4" id="h2">
                 <h4>.COORDINATE</h4>
             </div>
-            <div class="col-md-4 py-4" id="h3">
+            <div class="py-4" id="h3">
                 <h4>.COLLABORATE</h4>
             </div>
         </div>
     </header>
 
 
-    <div class="jumbotron-fluid bg-secondary" id="banner">
+    <div class="jumbotron-fluid" id="banner">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-right">
                     <div class="container" id="bannertext">
-                        <h1>Hello,</h1>
-                        <h2>I'm PangSzee</h2>
-                        <h2>A Web Developer</h2>
+                        <div>Hello,</div>
+                        <div>I'm PangSzee</div>
+                        <div>A Web Developer</div>
                     </div>
 
                 </div>
-                <div class="col-md-6 text-center">
-                    About
+                <div class="col-md-6 text-center" id="about">
+                    <p>Based in Adelaide, Australia.</p>
+                    <p>A Full-Stack Developer,</p>
+                    <p>Creating Difference Though</p>
+                    <p>The Power of Technology.</p>
                 </div>
             </div>
 
         </div>
 
-        
+        <div id="portfolio"></div>    
     </div>
 
-    <div class="jumbotron">
-        <div class="container">
+            
+        <div class="container-fluid wbg py-5">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h1>Portfolio</h1>
-                    <h2>Some of my recent work</h2>
                 </div>
             </div>
 
         </div>
-    </div>
+    
 
-    <main class="container">
+    <main class="container-fluid wbg">
+        <div class="container">
 
-
-        <div class="container my-5 ml-3">
-            <h4 class="text-center my-4">Golfing WebApp</h4>
-            <div class="row">
-                <div class="col-md-12 col-lg-7">
-                    <div class="container d-flex text-center">
-                        <img src="./assets/img/home1.png" class="img-responsive" alt="golfhome1">
-                        <!-- <img src="./assets/img/home2.png" class="img-responsive" alt="golfhome2"> -->
-                        <img src="./assets/img/scorecard.png" class="img-responsive ml-1" alt="scorecard">
-
+            <div class="container py-2 ml-3">
+                <h4 class="text-center py-4 title">Golfing WebApp</h4>
+                <div class="row">
+                    <div class="col-md-12 col-lg-7">
+                        <div class="container d-flex text-center">
+                            <img src="./assets/img/home1.png" class="img-responsive" alt="golfhome1">
+                            <!-- <img src="./assets/img/home2.png" class="img-responsive" alt="golfhome2"> -->
+                            <img src="./assets/img/scorecard.png" class="img-responsive ml-1" alt="scorecard">
+    
+                        </div>
+    
+    
                     </div>
-
-
-                </div>
-
-                <div class="col-md-12 col-lg-5">
-                    <div class="container py-4">
+    
+                    <div class="col-md-12 col-lg-5">
+                        <div class="container py-4">
+                            
+                            <p>Designed the help Golfer enjoy their game.</p>
+                            Feature include: 
+                            <ul><li>Weather details</li><li>Compass</li><li> Map marking</li><li>Score Card</li>
+                            </ul>
+                            Setting up on mobile devices:
+                            <ul><li>Enable Location</li><li>Enable WiFi</li><li>Enable Motion and Orientation settings</li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-dark btn-block" id="golf">Open App</button>    
+                        </div>
                         
-                        <p>Designed the help Golfer enjoy their game.</p>
-                        Feature include: 
-                        <ul><li>Weather details</li><li>Compass</li><li> Map marking</li><li>Score Card</li>
-                        </ul>
-                        Setting up on mobile devices:
-                        <ul><li>Enable Location</li><li>Enable WiFi</li><li>Enable Motion and Orientation settings</li>
-                        </ul>
-                        <button type="button" class="btn btn-outline-dark btn-block" id="golf">Open App</button>    
+    
                     </div>
-                    
-
+    
                 </div>
-
+    
             </div>
-
-        </div>
-
-
-
-        <div class="container my-5 ml-3">
-            <h4 class="text-center my-4">Weather WebApp</h4>
-            <div class="row">
-                <div class="col-md-12 col-lg-7">
-                    <div class="container text-center">
-                        <img src="./assets/img/weatherapp.png" class="img-responsive" alt="weatherapp">
-
+    
+    
+    
+            <div class="container py-5 ml-3">
+                <h4 class="text-center py-4 title">Weather WebApp</h4>
+                <div class="row">
+                    <div class="col-md-12 col-lg-7">
+                        <div class="container text-center">
+                            <img src="./assets/img/weatherapp.png" class="img-responsive" alt="weatherapp">
+    
+                        </div>
+    
                     </div>
-
-                </div>
-
-                <div class="col-md-12 col-lg-5">
-                    <div class="container py-4">
+    
+                    <div class="col-md-12 col-lg-5">
+                        <div class="container py-4">
+                            
+                            Feature include: 
+                            <ul><li>Current Weather details</li><li>5 Days Forecast</li><li>UV details</li>
+                            </ul>
+                            Setting up on mobile devices:
+                            <ul><li>Enable Location</li><li>Enable WiFi</li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-dark btn-block" id="weather">Open App</button>
+                        </div>
                         
-                        Feature include: 
-                        <ul><li>Current Weather details</li><li>5 Days Forecast</li><li>UV details</li>
-                        </ul>
-                        Setting up on mobile devices:
-                        <ul><li>Enable Location</li><li>Enable WiFi</li>
-                        </ul>
-                        <button type="button" class="btn btn-outline-dark btn-block" id="weather">Open App</button>
+    
                     </div>
-                    
-
+    
                 </div>
-
+    
             </div>
-
-        </div>
-
-        <div class="container my-5 ml-3">
-            <h4 class="text-center my-4">Quiz Generator</h4>
-            <div class="row">
-                <div class="col-md-12 col-lg-7">
-                    <div class="container text-center">
-                        <img src="./assets/img/quiz.png" class="img-responsive" alt="weatherapp">
-                    </div>
-                    
-
-                </div>
-
-                <div class="col-md-12 col-lg-5">
-                    <div class="container py-4">
+    
+            <div class="container ml-3 py-5">
+                <h4 class="text-center py-4 title">Quiz Generator</h4>
+                <div class="row">
+                    <div class="col-md-12 col-lg-7">
+                        <div class="container text-center">
+                            <img src="./assets/img/quiz.png" class="img-responsive" alt="weatherapp">
+                        </div>
                         
-                        Feature include: 
-                        <ul><li>Web App for conducting Quiz</li><li>Multiple choice</li><li>Score recoding</li>
-                        </ul>
-                        <button type="button" class="btn btn-outline-dark btn-block" id="quiz">Open App</button>
+    
                     </div>
-                    
-
+    
+                    <div class="col-md-12 col-lg-5">
+                        <div class="container py-4">
+                            
+                            Feature include: 
+                            <ul><li>Web App for conducting Quiz</li><li>Multiple choice</li><li>Score recoding</li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-dark btn-block" id="quiz">Open App</button>
+                        </div>
+                        
+                    </div>
+    
                 </div>
-
+    
             </div>
 
+
         </div>
+
+
+
 
     
     </main>
 
-    <div class="container-fluid">
-        
-    
-        
-    </div>
-
-    
-
-    
 
     <footer>
         <div class="container-fluid">
-            <div>
-                <a href="https://github.com/a1718367" target="_blank"><i class='fab fa-github'></i></a>
-                <a href="https://au.linkedin.com/in/pangszee-ong-5926b05a" target="_blank"><i class='fab fa-linkedin'></i></a>
-    
-            </div>
             <span class="float-right">&copy;PSO Co. 2020</span>
         </div>  
     </footer>    
