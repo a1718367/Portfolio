@@ -32,7 +32,7 @@
     </nav> -->
 
     <header class="container-fluid">
-        <div class="row">
+        <div class="row side">
             <div class="col-md-4 py-4" id="h1">
                 <h4>.COMMUNICATE</h4>
             </div>
@@ -45,110 +45,141 @@
         </div>
     </header>
 
-    <div class="container-fluid">
-        <div class="jumbotron banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-right">
+
+    <div class="jumbotron-fluid bg-secondary" id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-right">
+                    <div class="container" id="bannertext">
                         <h1>Hello,</h1>
                         <h2>I'm PangSzee</h2>
                         <h2>A Web Developer</h2>
                     </div>
-                    <div class="col-md-6 text-center">
-                        About
-                    </div>
+
                 </div>
-    
-            </div>
-    
-            
-        </div>
-    
-        <div class="jumbotron test">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h1>Portfolio</h1>
-                        <h2>Some of my recent work</h2>
-                    </div>
+                <div class="col-md-6 text-center">
+                    About
                 </div>
-    
             </div>
+
         </div>
-    
-        <main class="container">
+
+        
+    </div>
+
+    <div class="jumbotron">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="container">
-                        <h4>Golfing WebApp</h4>
-                        <button type="button" class="btn btn-outline-dark" id="golf">Open App</button>
+                    <h1>Portfolio</h1>
+                    <h2>Some of my recent work</h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <main class="container">
+
+
+        <div class="container my-5 ml-3">
+            <h4 class="text-center my-4">Golfing WebApp</h4>
+            <div class="row">
+                <div class="col-md-12 col-lg-7">
+                    <div class="container d-flex text-center">
+                        <img src="./assets/img/home1.png" class="img-responsive" alt="golfhome1">
+                        <!-- <img src="./assets/img/home2.png" class="img-responsive" alt="golfhome2"> -->
+                        <img src="./assets/img/scorecard.png" class="img-responsive ml-1" alt="scorecard">
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-12 col-lg-5">
+                    <div class="container py-4">
+                        
+                        <p>Designed the help Golfer enjoy their game.</p>
+                        Feature include: 
+                        <ul><li>Weather details</li><li>Compass</li><li> Map marking</li><li>Score Card</li>
+                        </ul>
+                        Setting up on mobile devices:
+                        <ul><li>Enable Location</li><li>Enable WiFi</li><li>Enable Motion and Orientation settings</li>
+                        </ul>
+                        <button type="button" class="btn btn-outline-dark btn-block" id="golf">Open App</button>    
                     </div>
                     
-                    <div class="container">
-                        <img src="./assets/img/home1.png" alt="golfhome1">
-                        <img src="./assets/img/home2.png" alt="golfhome2">
-                        <img src="./assets/img/scorecard.png" alt="scorecard">
-                    </div>
-                    <div>
-                        <h4>Details</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis voluptas deleniti reiciendis in nihil reprehenderit earum id, porro natus dolore repellat officia. Necessitatibus adipisci obcaecati ea asperiores, deleniti rem cum?</p>
-                        
-                    </div>
-                </div>
-    
-            </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="container">
-                            <h4>Weather WebApp</h4>
-                            <button type="button" class="btn btn-outline-dark" id="weather">Open App</button>
-                        </div>
-                        
-                        <div class="container">
-                            <img src="./assets/img/weatherapp.png" class="img-fluid" alt="weatherapp" style="width: 30%; height: auto;">
-                            <div class="container mr-2">
-                                <h4>Details</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nemo illo dolores ipsa numquam, iusto excepturi pariatur fugiat provident qui, quos nesciunt et sint blanditiis aliquid architecto repellendus rerum itaque.</p>
-                                
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-    
-            </div>
-            
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="container">
-                            <h4>Quiz Generator</h4>
-                            <button type="button" class="btn btn-outline-dark" id="quiz">Open App</button>
-                        </div>
-                        
-                        <div class="container">
-                            <img src="./assets/img/quiz.png" alt="quizgenerator">
-                            <div class="container mr-2">
-                                <h4>Details</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nemo illo dolores ipsa numquam, iusto excepturi pariatur fugiat provident qui, quos nesciunt et sint blanditiis aliquid architecto repellendus rerum itaque.</p>
-                                
-                            </div>
-                        </div>
-    
-                    </div>
                 </div>
 
             </div>
 
+        </div>
+
+
+
+        <div class="container my-5 ml-3">
+            <h4 class="text-center my-4">Weather WebApp</h4>
+            <div class="row">
+                <div class="col-md-12 col-lg-7">
+                    <div class="container text-center">
+                        <img src="./assets/img/weatherapp.png" class="img-responsive" alt="weatherapp">
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-12 col-lg-5">
+                    <div class="container py-4">
+                        
+                        Feature include: 
+                        <ul><li>Current Weather details</li><li>5 Days Forecast</li><li>UV details</li>
+                        </ul>
+                        Setting up on mobile devices:
+                        <ul><li>Enable Location</li><li>Enable WiFi</li>
+                        </ul>
+                        <button type="button" class="btn btn-outline-dark btn-block" id="weather">Open App</button>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container my-5 ml-3">
+            <h4 class="text-center my-4">Quiz Generator</h4>
+            <div class="row">
+                <div class="col-md-12 col-lg-7">
+                    <div class="container text-center">
+                        <img src="./assets/img/quiz.png" class="img-responsive" alt="weatherapp">
+                    </div>
+                    
+
+                </div>
+
+                <div class="col-md-12 col-lg-5">
+                    <div class="container py-4">
+                        
+                        Feature include: 
+                        <ul><li>Web App for conducting Quiz</li><li>Multiple choice</li><li>Score recoding</li>
+                        </ul>
+                        <button type="button" class="btn btn-outline-dark btn-block" id="quiz">Open App</button>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
+        </div>
 
     
+    </main>
+
+    <div class="container-fluid">
         
-    
-    
-    
-        </main>
     
         
     </div>

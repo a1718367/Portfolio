@@ -11,7 +11,7 @@ a, i{
 header{
     position: fixed;
     left: 0;
-    height: 50rem;
+    height: 55rem;
     writing-mode: vertical-lr;
     text-orientation: mixed;
 }
@@ -23,7 +23,20 @@ footer{
     
 }
 
+#banner{
+    height: 40rem;
 
+}
+#bannertext{
+    padding-top: 15rem;
+}
+
+
+.side h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
 
 #h1{
     opacity: 0;
@@ -46,13 +59,10 @@ footer{
     animation-fill-mode: forwards;
 }
 img{
-    width: 30%;
+    width: 50%;
+    border-radius: 15px;
     
 }
-.col-md-6 h4{
-    padding-left: 1rem;
-}
-
 
 
 
@@ -61,7 +71,7 @@ img{
     h4{
         font-size: 18px;
     };
-    
+
 }
 
 /*animation*/

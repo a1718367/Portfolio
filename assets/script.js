@@ -2,7 +2,14 @@
 window.addEventListener("resize", function(){
     let viewportwidth = window.innerWidth;
     console.log(viewportwidth);
-
+if(viewportwidth<=568){
+    document.getElementById('banner').style.height="25rem";
+    document.getElementById('bannertext').style.paddingTop="5rem"
+}else{
+    document.getElementById('banner').style.height="40rem";
+    document.getElementById('bannertext').style.paddingTop="15rem"
+    
+}
     
 })
 
